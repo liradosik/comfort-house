@@ -1,0 +1,23 @@
+# Игнорируем папку с Joomla-кодом (скачивается заново)
+joomla/
+
+# Данные БД
+db_data/
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# node_modules, если вдруг появятся
+node_modules/
