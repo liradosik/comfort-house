@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="template" client="site">
+    <name>comfyhouse</name>
+    <version>1.0</version>
+    <description>Шаблон "Комфортный дом"</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>styles</folder>
+        <folder>js</folder>
+        <folder>images</folder>
+        <folder>fonts</folder>
+    </files>
+    <positions>
+        <position>debug</position>
+    </positions>
+</extension>
