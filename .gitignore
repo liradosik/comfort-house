@@ -1,22 +1,15 @@
-
-
-# Данные БД
-db_data/
-
-# Логи и временные файлы
+# игнорировать временные файлы и кэш
 *.log
 *.tmp
+*.zip
+*.tar.gz
 
-# macOS
-.DS_Store
+# исключить данные контейнеров
+db_data/
+vendor/
 
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# VS Code
+# Исключить служебные папки IDE и ОС
 .vscode/
-
-# node_modules, если вдруг появятся
-node_modules/
+.idea/
+.DS_Store
+Thumbs.db
