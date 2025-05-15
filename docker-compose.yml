@@ -3,6 +3,7 @@ version: '3.8'
 services:
   joomla:
     image: joomla
+    build: .
     ports:
       - "8147:80"
     restart: always
